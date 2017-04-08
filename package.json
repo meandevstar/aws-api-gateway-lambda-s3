@@ -1,0 +1,19 @@
+{
+  "name": "test-aws-lambda-s3",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "claudia:create": "claudia create --name test-aws-lambda-s3 --region us-east-1 --api-module app --profile default",
+    "claudia:update": "claudia update --profile default"
+  },
+  "author": "aimoko1067@yahoo.com",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.22.0",
+    "claudia-api-builder": "^2.4.0",
+    "node-uuid": "^1.4.7",
+    "q": "^1.4.1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "test-aws-lambda-s3-executor",
+    "name": "test-aws-lambda-s3",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "nrfge9lji7",
+    "module": "app"
+  }
+}
